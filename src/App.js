@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
 export default function App(){
   const [progress,setprogress]=useState(0)
+  //git hub 
     return (
       <>
         <Router>
@@ -13,7 +14,7 @@ export default function App(){
           <LoadingBar
         color='red'
         progress={progress}       
-      />
+      /> 
             {/* <div className='col-md-4'> */}
             <Routes>
               <Route
